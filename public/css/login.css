@@ -1,0 +1,22 @@
+.login {
+  height: 100vh;
+  background: url("/images/background.jpg") no-repeat center/cover;
+  user-select: none;
+}
+
+.login::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: inherit;
+  width: 100%;
+  z-index: 1;
+  inset: 0;
+}
+
+form {
+  width: 35%;
+  z-index: 1;
+  position: inherit;
+  padding-bottom: 5rem;
+}
